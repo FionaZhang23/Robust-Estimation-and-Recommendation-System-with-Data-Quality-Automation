@@ -26,25 +26,26 @@ This project is structured into the following phases:
 
 ---
 
-## 📂 Project Structure
-
-data/                             # 📁 Raw data files
+<details> <summary><strong>📁 Project Structure</strong></summary>
+bash
+data/                             # Raw data files
 └── feature_descriptions.csv
 
-output/                           # 📁 Reports and model results
+output/                           # Reports and model results
 ├── data_quality_report.csv
 ├── fantasy_modeling_report.txt
 └── fantasy_model_report(part4).txt
 
-scripts/                          # 📁 All Python scripts
+scripts/                          # All Python scripts
 ├── __init__.py
 ├── check_quality.py              # Phase II: Data quality + leakage check
 ├── transformers.py               # Phase III: Custom Transformer class
 ├── utils.py                      # Phase IV: Feature engineering utils
 └── assignment_2.py               # Main execution script
 
-slurm/                            # 📁 SLURM job script for HPC
+slurm/                            # SLURM job script for HPC
 └── assignment_2.slurm
 
-README.md                         # 📘 Project overview and instructions
-requirements.txt                  # 📄 Python dependencies
+README.md                         # Project overview and instructions
+requirements.txt                  # Python dependencies
+</details>
