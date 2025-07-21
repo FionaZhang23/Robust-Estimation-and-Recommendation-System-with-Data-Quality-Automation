@@ -1,4 +1,5 @@
 # Robust-Estimation-and-Recommendation-System-with-Data-Quality-Automation
+
 ## 📌 Overview
 
 This project implements an end-to-end machine learning pipeline for **estimation and recommendation tasks**, following the CRISP-DM framework. It includes:
@@ -27,6 +28,8 @@ This project is structured into the following phases:
 ---
 
 ## 📂 Project Structure
+
+```bash
 data/                             # Raw data files
 └── feature_descriptions.csv
 
@@ -47,4 +50,4 @@ slurm/                            # SLURM job script for HPC
 
 README.md                         # Project overview and instructions
 requirements.txt                  # Python dependencies
-</details>
+
