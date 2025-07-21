@@ -26,8 +26,7 @@ This project is structured into the following phases:
 
 ---
 
-<details> <summary><strong>📁 Project Structure</strong></summary>
-bash
+## 📂 Project Structure
 data/                             # Raw data files
 └── feature_descriptions.csv
 
