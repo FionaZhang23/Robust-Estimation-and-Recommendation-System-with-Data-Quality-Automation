@@ -49,5 +49,4 @@ slurm/                            # SLURM job script for HPC
 └── assignment_2.slurm
 
 README.md                         # Project overview and instructions
-requirements.txt                  # Python dependencies
 
