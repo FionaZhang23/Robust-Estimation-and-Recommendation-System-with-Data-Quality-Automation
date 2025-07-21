@@ -45,8 +45,5 @@ scripts/                          # All Python scripts
 ├── utils.py                      # Phase IV: Feature engineering utils
 └── assignment_2.py               # Main execution script
 
-slurm/                            # SLURM job script for HPC
-└── assignment_2.slurm
-
 README.md                         # Project overview and instructions
 
